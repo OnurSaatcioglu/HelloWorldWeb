@@ -1,0 +1,26 @@
+﻿@model HelloWorldWeb.Models.Student
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Student Detail</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>İsim</th>
+                <th>Yaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Id</td>
+                <td>@Model.Name</td>
+                <td>@Model.Age</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+
