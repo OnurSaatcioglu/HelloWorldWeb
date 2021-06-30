@@ -14,6 +14,8 @@ namespace HelloWorldWeb.Controllers
             return View();
         }
 
+
+        //Öğrenci bilgileri
         public IActionResult Detail(int id)
         {
 
